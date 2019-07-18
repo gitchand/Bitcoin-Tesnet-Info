@@ -9,4 +9,8 @@ def Bal_Avail(addr):
         return response['message']
     return response['data']
 
-print(Bal_Avail('mhcAAHY7M5WuQzqqAHfzDLdu5hsp9Dow8y'))
+Bitcoin_Tesnet_Address = ""
+
+Available_Balance = Bal_Avail(Bitcoin_Tesnet_Address)
+
+print(Available_Balance)
