@@ -9,7 +9,7 @@ def Bal_Avail(addr):
         return response['message']
     return response['data']
 
-Bitcoin_Tesnet_Address = ""
+Bitcoin_Tesnet_Address = "" # inser your bitcoin testnet address here to check available testnet bitcoin
 
 Available_Balance = Bal_Avail(Bitcoin_Tesnet_Address)
 
